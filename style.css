@@ -105,7 +105,7 @@ span{
 .home-img img{
   position: relative;
   top: 3rem;
-  width: 300px;
+  width: 52vw;
   height: 52vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
@@ -189,7 +189,7 @@ span{
 @keyframes words{
   0%,
   20%{
-    content:"Frontend Web";
+    content:"Web Developer";
   }
   21%,
   40%{
@@ -250,7 +250,7 @@ span{
 }
 .about-img img{
   position: relative;
-  width: 300px;
+  width: 52vw;
   height: 52vw;
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
@@ -279,7 +279,7 @@ span{
 }
 
 .about-content .text-animation span::before{
-  content: 'Frontend Web';
+  content: 'Web Developer';
   color: var(--main-color);
   animation: words 20s infinite;
 }
